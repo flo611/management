@@ -16,6 +16,9 @@
  require_once('./pages/salaray_desc.php');
  require_once('./pages/years_entree.php');
  require_once('./pages/salary_commission.php');
+ require_once('./pages/top3_salary.php');
+ require_once('./pages/entree_topsalary.php');
+ require_once('./pages/nom_services.php');
     ?>
 </body>
 </html>

@@ -4,7 +4,7 @@
 
 $sql = "SELECT * FROM employe WHERE YEAR(date_entree) = 2021";
     $result = $db_connect->query($sql);
-
+    echo "<h2>Date d'entrée:</h2>";
     echo "<ul>";
 
     if ($result !== false) {
