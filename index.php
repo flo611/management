@@ -19,6 +19,8 @@
  require_once('./pages/top3_salary.php');
  require_once('./pages/entree_topsalary.php');
  require_once('./pages/nom_services.php');
+ require_once('./pages/employee_info.php');
+ require_once('./pages/paris_salary.php');
     ?>
 </body>
 </html>
