@@ -15,6 +15,7 @@
 
  require_once('./pages/salaray_desc.php');
  require_once('./pages/years_entree.php');
+ require_once('./pages/salary_commission.php');
     ?>
 </body>
 </html>
