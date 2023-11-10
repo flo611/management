@@ -10,25 +10,11 @@
 <body>
     
     <h1>Let's time to play with SQL !</h1>
-<?php
-require_once('./assets/php/middleware/connect.php');
+    <?php
+    require_once('./assets/php/middleware/connect.php');
 
-
-$sql = "SELECT * FROM employe WHERE salaire > 2000 ORDER BY salaire DESC";
-$result = $db_connect->query($sql);
-
-
-if ($result !== false) {
-    echo "<ul>";
-    while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
-        echo "<li>" . $row["nom"] . " - Salaire: " . $row["salaire"] . "</li>";
-    }
-    echo "</ul>";
-} else {
-    echo "Aucun résultat trouvé.";
-}
-
-?>
-
+ require_once('./pages/salaray_desc.php');
+ require_once('./pages/years_entree.php');
+    ?>
 </body>
 </html>
