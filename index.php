@@ -21,6 +21,14 @@
  require_once('./pages/nom_services.php');
  require_once('./pages/employee_info.php');
  require_once('./pages/paris_salary.php');
+ require_once('./pages/employee_number.php');
+ require_once('./pages/list_accounting.php');
+ require_once('./pages/best_salary.php');
+ require_once('./pages/list_employee.php');
+ require_once('./pages/list_moyensalary.php');
+ require_once('./pages/list_services.php');
+ require_once('./pages/list_employeservice.php');
+ require_once('./pages/list_employelyon.php');
     ?>
 </body>
 </html>
